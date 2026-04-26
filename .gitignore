@@ -1,0 +1,12 @@
+# Package Manager
+node_modules
+
+# Bundle
+dist
+
+# Mac System
+.DS_Store
+
+# local storages
+docs/.vitepress/cache
+docs/.vitepress/dist

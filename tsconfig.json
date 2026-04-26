@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node", // how to find file when 'import'
+    "strict": true,
+    "jsx": "preserve", // unchange '.jsx' file
+    "resolveJsonModule": true, // allow to "import 'some-file.json'"
+    "esModuleInterop": true, // fix compatibility issues when importing old CommonJS files
+    "lib": ["ESNext", "DOM"],
+    "declaration": true,
+    "declarationDir": "dist/types",
+
+    "baseUrl": ".",
+    "paths": {
+      "@yorha-ui/*": ["packages/*"]
+    }
+  },
+  "include": ["packages/**/*", "playground/**/*"]
+}
