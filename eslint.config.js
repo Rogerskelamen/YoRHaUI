@@ -8,7 +8,7 @@ export default [
     ignores: [
       'dist',
       'node_modules',
-      'docs/.vitepress/dist'
+      'docs/.vitepress/**'
     ]
   },
 
