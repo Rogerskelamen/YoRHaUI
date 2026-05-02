@@ -1,7 +1,6 @@
+import YoRHaUI from '@yorha-ui/yorha-ui';
 import { createApp } from 'vue';
 import App from './App.vue';
-
-import YoRHaUI from '@yorha-ui/yorha-ui';
 
 const app = createApp(App);
 

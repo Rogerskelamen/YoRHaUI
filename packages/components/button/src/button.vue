@@ -4,6 +4,6 @@
 
 <script lang="ts" setup>
 defineOptions({
-  name: 'YrhButton'
+  name: 'YrhButton',
 });
 </script>

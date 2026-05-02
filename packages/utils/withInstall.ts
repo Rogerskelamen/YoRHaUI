@@ -1,7 +1,7 @@
-import { App, Component } from "vue";
+import { App, Component } from 'vue';
 
 export type SFCWithInstall<T> = T & {
-  install(app: App): void
+  install(app: App): void;
 };
 
 export const withInstall = <T extends Component>(component: T) => {
