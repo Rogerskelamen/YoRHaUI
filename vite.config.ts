@@ -7,7 +7,9 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@yorha-ui': resolve(__dirname, 'packages'),
+      'yorha-ui': resolve(__dirname, 'packages/yorha-ui'),
+      '@yorha-ui/components': resolve(__dirname, 'packages/components'),
+      '@yorha-ui/utils': resolve(__dirname, 'packages/utils'),
     },
   },
 });

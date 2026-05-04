@@ -13,7 +13,9 @@
 
     "baseUrl": ".",
     "paths": {
-      "@yorha-ui/*": ["packages/*"]
+      "@yorha-ui/components/*": ["./packages/components/*"],
+      "@yorha-ui/utils/*": ["./packages/utils/*"],
+      "yorha-ui": ["./packages/yorha-ui"]
     }
   },
   "include": ["packages/**/*", "playground/**/*"]
