@@ -8,7 +8,12 @@ import tseslint from 'typescript-eslint';
 export default [
   // 1. Ignores
   {
-    ignores: ['dist', 'node_modules', 'docs/.vitepress/**'],
+    ignores: [
+      'dist',
+      'node_modules',
+      'docs/.vitepress/cache',
+      'docs/.vitepress/theme',
+    ],
   },
 
   // 2. TS strict rules
