@@ -25,10 +25,16 @@ export default [
   // 4. Vue enhanced rules (about component)
   {
     files: ['**/*.vue'],
+    languageOptions: {
+      parserOptions: {
+        parser: tseslint.parser,
+      },
+    },
     rules: {
       'vue/multi-word-component-names': 'off',
       'vue/component-name-in-template-casing': ['error', 'PascalCase'],
       'vue/no-v-html': 'warn',
+      'vue/html-self-closing': 'error',
     },
   },
 

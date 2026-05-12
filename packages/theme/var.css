@@ -1,0 +1,40 @@
+/* Refer to https://www.platinumgames.com/official-blog/article/9624 */
+:root {
+  /* === Palette === */
+  --yrh-color-white: #f0f0f0;
+  --yrh-color-black: #575757;
+
+  /* === Main Theme === */
+  --yrh-color-primary: #cdc8b0;
+  --yrh-color-primary-light: #dad4bb;
+  --yrh-color-primary-dark: #4e4b42;
+  --yrh-color-secondary-dark: #635f54;
+
+  /* === Background === */
+  --yrh-bg-color: var(--yrh-color-primary); /* primary background */
+  --yrh-bg-color-light: var(--yrh-color-primary-light);
+  --yrh-bg-color-dark: var(--yrh-color-primary-dark);
+  --yrh-bg-color-dark-secondary: var(--yrh-color-secondary-dark);
+
+  /* === Text color === */
+  --yrh-text-color: var(--yrh-color-primary-dark);
+  --yrh-text-color-light: var(--yrh-color-primary-light);
+
+  /* === Button === */
+  --yrh-btn-bg: var(--yrh-bg-color-dark-secondary);
+  --yrh-border-color: #6b6652;
+
+  /* === Font === */
+  --yrh-font-family: "myriad-pro", "YuGothic", "游ゴシック体", "Yu Gothic", "游ゴシック", sans-serif;
+  --yrh-font-size-sm: 12px;
+  --yrh-font-size-md: 14px;
+  --yrh-font-size-lg: 16px;
+
+  /* === Spacing === */
+  --yrh-spacing-xs: 4px;
+  --yrh-spacing-sm: 8px;
+  --yrh-spacing-md: 12px;
+  --yrh-spacing-lg: 20px;
+  --yrh-spacing-xl: 28px;
+}
+
