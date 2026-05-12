@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node", // how to find file when 'import'
+    "moduleResolution": "bundler", // how to find file when 'import'
     "strict": true,
     "jsx": "preserve", // unchange '.jsx' file
     "resolveJsonModule": true, // allow to "import 'some-file.json'"
@@ -11,7 +11,7 @@
     "declaration": true,
     "declarationDir": "dist/types",
 
-    "baseUrl": ".",
+    "rootDir": ".",
     "paths": {
       "@yorha-ui/components/*": ["./packages/components/*"],
       "@yorha-ui/utils/*": ["./packages/utils/*"],

@@ -7,6 +7,10 @@ dist
 # Mac System
 .DS_Store
 
+# Editor directories
+.idea
+.vscode
+
 # local storages
 docs/.vitepress/cache
 docs/.vitepress/dist
