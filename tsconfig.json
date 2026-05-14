@@ -18,5 +18,10 @@
       "yorha-ui": ["./packages/yorha-ui"]
     }
   },
-  "include": ["packages/**/*", "playground/**/*"]
+  "include": [
+    "packages/**/*",
+    "playground/**/*",
+    "typings/env.d.ts",
+    "typings/style.d.ts"
+  ]
 }

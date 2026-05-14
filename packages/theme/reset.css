@@ -7,8 +7,14 @@
 }
 
 body {
-  font-family: var(--yrh-font-family);
+  font-family: var(--yrh-font);
   font-size: var(--yrh-font-size-md);
   color: var(--yrh-text-color);
   background-color: var(--yrh-bg-color);
+  letter-spacing: var(--yrh-letter-spacing);
+}
+
+button {
+  cursor: pointer;
+  border: none;
 }

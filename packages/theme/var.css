@@ -25,12 +25,18 @@
   --yrh-border-color: #6b6652;
 
   /* === Font === */
-  --yrh-font-family: "myriad-pro", "YuGothic", "游ゴシック体", "Yu Gothic", "游ゴシック", sans-serif;
+  /**
+   * 'myriad-pro' is the default font for Nier: Automata,
+   * Due to its commercial licensing (Adobe),
+   * I use 'source sans 3' as an alternative.
+   */
+  --yrh-font: "Source Sans 3", "YuGothic", "游ゴシック体", "Yu Gothic", "游ゴシック", Arial, sans-serif;
   --yrh-font-size-sm: 12px;
   --yrh-font-size-md: 14px;
   --yrh-font-size-lg: 16px;
 
   /* === Spacing === */
+  --yrh-letter-spacing: .04em;
   --yrh-spacing-xs: 4px;
   --yrh-spacing-sm: 8px;
   --yrh-spacing-md: 12px;
