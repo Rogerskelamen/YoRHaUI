@@ -3,9 +3,11 @@
 
   <br />
 
-  <yrh-button>Click Me</yrh-button>
-
-  <br />
+  <div style="display: flex; gap: 12px; align-items: center">
+    <yrh-button size="sm">SMALL BUTTON</yrh-button>
+    <yrh-button size="md" :active="true">MEDIUM BUTTON</yrh-button>
+    <yrh-button size="lg">LARGE BUTTON</yrh-button>
+  </div>
 
   <p>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, illum

@@ -7,6 +7,7 @@
   /* === Main Theme === */
   --yrh-color-primary: #cdc8b0;
   --yrh-color-primary-light: #dad4bb;
+  --yrh-color-secondary-light: #b4af9a;
   --yrh-color-primary-dark: #4e4b42;
   --yrh-color-secondary-dark: #635f54;
 
@@ -21,7 +22,8 @@
   --yrh-text-color-light: var(--yrh-color-primary-light);
 
   /* === Button === */
-  --yrh-btn-bg: var(--yrh-bg-color-dark-secondary);
+  --yrh-btn-bg: var(--yrh-color-secondary-light);
+  --yrh-btn-bg-active: var(--yrh-bg-color-dark);
   --yrh-border-color: #6b6652;
 
   /* === Font === */
@@ -31,9 +33,9 @@
    * I use 'source sans 3' as an alternative.
    */
   --yrh-font: "Source Sans 3", "YuGothic", "游ゴシック体", "Yu Gothic", "游ゴシック", Arial, sans-serif;
-  --yrh-font-size-sm: 12px;
-  --yrh-font-size-md: 14px;
-  --yrh-font-size-lg: 16px;
+  --yrh-font-size-sm: .875rem;
+  --yrh-font-size-md: 1rem;
+  --yrh-font-size-lg: 1.125rem;
 
   /* === Spacing === */
   --yrh-letter-spacing: .04em;
