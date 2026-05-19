@@ -8,7 +8,7 @@ export default defineConfig({
     vue(),
     dts({
       insertTypesEntry: true,
-      include: ['packages'],
+      include: ['packages', 'typings'],
       exclude: ['playground'],
     }),
   ],
