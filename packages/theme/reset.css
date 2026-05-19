@@ -17,4 +17,5 @@ body {
 button {
   cursor: pointer;
   border: none;
+  font-family: var(--yrh-font); /* override UA-sheet for <button> */
 }

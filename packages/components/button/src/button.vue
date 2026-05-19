@@ -42,7 +42,8 @@ defineOptions({
   align-items: center;
   gap: var(--yrh-btn-gap);
   background-color: var(--yrh-btn-bg);
-  color: var(--yrh-text-color-dark);
+  color: var(--yrh-text-color);
+  letter-spacing: var(--yrh-letter-spacing);
 }
 
 .yrh-btn.active {
