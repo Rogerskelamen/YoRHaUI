@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "A Vue 3 component library inspired by YoRHa UI (NieR: Automata)",
   "type": "module",
-  "main": "dist/index.cjs",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "rollup -c",
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build --config vite.lib.config.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "docs:dev": "vitepress dev docs",
@@ -27,27 +30,32 @@
     "url": "https://github.com/Rogerskelamen/YoRHaUI/issues"
   },
   "homepage": "https://github.com/Rogerskelamen/YoRHaUI#readme",
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.5.33"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.3",
     "@commitlint/config-conventional": "^20.5.3",
-    "@types/node": "^25.6.0",
-    "@vitejs/plugin-vue": "^6.0.6",
+    "@types/node": "^25.9.0",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/language-core": "^3.1.8",
     "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-vue": "^10.9.0",
+    "eslint-plugin-vue": "^10.9.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
-    "rollup": "^4.60.2",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.0",
+    "typescript-eslint": "^8.59.4",
     "vite": "^5.4.21",
-    "vitepress": "^1.6.4"
+    "vite-plugin-dts": "^5.0.1",
+    "vitepress": "^1.6.4",
+    "vue-tsc": "^3.3.0"
+  },
+  "engines": {
+    "node": ">= 22.22.0"
   },
   "lint-staged": {
     "*.{ts,js,vue}": [

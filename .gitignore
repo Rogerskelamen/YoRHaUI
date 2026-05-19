@@ -3,6 +3,7 @@ node_modules
 
 # Bundle
 dist
+*.tgz
 
 # Mac System
 .DS_Store
