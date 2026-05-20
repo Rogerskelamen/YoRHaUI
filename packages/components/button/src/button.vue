@@ -44,6 +44,8 @@ defineOptions({
   background-color: var(--yrh-btn-bg);
   color: var(--yrh-text-color);
   letter-spacing: var(--yrh-letter-spacing);
+  line-height: var(--yrh-btn-font-size);
+  font-size: var(--yrh-btn-font-size);
 }
 
 .yrh-btn.active {
@@ -61,23 +63,23 @@ defineOptions({
 }
 
 .yrh-btn-sm {
+  --yrh-btn-font-size: var(--yrh-font-size-sm);
   --yrh-btn-deco-size: calc(var(--yrh-font-size-sm) - 2px);
   --yrh-btn-gap: calc(var(--yrh-font-size-sm) / 2);
-  padding: 4px 6px;
-  font-size: var(--yrh-font-size-sm);
+  padding: 5px 6px;
 }
 
 .yrh-btn-md {
+  --yrh-btn-font-size: var(--yrh-font-size-md);
   --yrh-btn-deco-size: calc(var(--yrh-font-size-md) - 2px);
   --yrh-btn-gap: calc(var(--yrh-font-size-md) / 2);
-  padding: 5px 7px;
-  font-size: var(--yrh-font-size-md);
+  padding: 6px 7px;
 }
 
 .yrh-btn-lg {
+  --yrh-btn-font-size: var(--yrh-font-size-lg);
   --yrh-btn-deco-size: calc(var(--yrh-font-size-lg) - 2px);
   --yrh-btn-gap: calc(var(--yrh-font-size-lg) / 2 + 2px);
-  padding: 6px 8px;
-  font-size: var(--yrh-font-size-lg);
+  padding: 7px 8px;
 }
 </style>
