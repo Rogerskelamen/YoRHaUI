@@ -10,7 +10,9 @@ dist
 
 # Editor directories
 .idea
-.vscode
+
+# Claude
+CLAUDE.md
 
 # local storages
 docs/.vitepress/cache
