@@ -1,5 +1,5 @@
 <template>
-  <h1>YoRHa UI Playground</h1>
+  <yrh-heading :subtext="subtext">YORHA UI PLAYGROUND</yrh-heading>
 
   <br />
 
@@ -15,3 +15,10 @@
     error tenetur, a delectus. In perferendis expedita ullam explicabo id!
   </p>
 </template>
+
+<script lang="ts" setup>
+const subtext = {
+  enable: true,
+  content: '开发中',
+};
+</script>

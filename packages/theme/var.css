@@ -20,6 +20,7 @@
   /* === Text color === */
   --yrh-text-color: var(--yrh-color-primary-dark);
   --yrh-text-color-light: var(--yrh-color-primary-light);
+  --yrh-text-shadow: #aca999;
 
   /* === Button === */
   --yrh-btn-bg: var(--yrh-color-secondary-light);
