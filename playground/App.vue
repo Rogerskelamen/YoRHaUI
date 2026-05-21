@@ -1,5 +1,5 @@
 <template>
-  <yrh-heading :subtext="subtext">YORHA UI PLAYGROUND</yrh-heading>
+  <yrh-heading :subtext="subtext">YoRHa UI Playground</yrh-heading>
 
   <br />
 

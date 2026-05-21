@@ -2,7 +2,10 @@
   <component :is="tag" class="yrh-heading">
     <span
       class="yrh-heading__content"
-      :class="{ 'yrh-heading-shadow': props.shadow }"
+      :class="{
+        'yrh-heading-shadow': props.shadow,
+        'yrh-heading-uppercase': props.uppercase,
+      }"
     >
       <slot />
     </span>
@@ -41,6 +44,10 @@ defineOptions({
 
 .yrh-heading .yrh-heading__content.yrh-heading-shadow {
   text-shadow: 0.14em 0.12em 0 var(--yrh-text-shadow);
+}
+
+.yrh-heading .yrh-heading__content.yrh-heading-uppercase {
+  text-transform: uppercase;
 }
 
 .yrh-heading .yrh-heading__subtext {
